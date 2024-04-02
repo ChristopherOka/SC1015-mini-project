@@ -1,0 +1,377 @@
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+    <head>
+        <title>WordNet Search - 3.1</title>
+        <style type="text/css">
+            <!--/* <![CDATA[ */
+            ul.typer {list-style-type: circle;}
+            ul.types {list-style-type: disc;}
+            ul.typew {list-style-type: disc;}
+            a.warning {color: red;}
+            a:link.relWords {color: green;}
+            a.pos {color: red;}
+            a.showAll {
+              font-size: 75%;
+              font-family: sans-serif; }
+
+            body {
+            background: #E7E7E7;
+            font-family: Lucida Grande,"Lucida Grande Unicode",Helvetica,Arial,sans-serif;
+            }
+            .header {
+            background-color: #BE6E28;
+            border: 1em solid #BE6E28;
+            width: 40em;
+            font-family: Helvetica,Arial,sans-serif;
+
+            }
+            .title {
+            font-size: 150%;
+            color: white;
+            }
+            .navbar {
+            color: white;
+            font-size: 120%;
+            }
+            .key {
+            margin-top: .3em;
+            color: #BE6E28;
+            }
+            .form {
+            background-color: #FFF8F1;
+            border: 1em solid #FFF8F1;
+            width: 40em
+            }
+
+
+            /* ]]> */-->
+        </style>
+        <script type="text/javascript">
+            //<![CDATA[
+            function sf() {
+                document.f.s.focus();
+            }
+
+            //]]>
+        </script>
+        <meta
+            http-equiv="Content-Type"
+            content="text/html; charset=iso-8859-1"
+        />
+    </head>
+    <body onload="">
+        <div class="header">
+            <span class="title">WordNet Search - 3.1</span>
+            <div class="navbar">
+                - <a href="http://wordnet.princeton.edu">WordNet home page</a> -
+                <a href="http://wordnet.princeton.edu/man/wngloss.7WN.html"
+                    >Glossary</a
+                >
+                - <a href="help.pl">Help</a>
+            </div>
+        </div>
+        <div class="form">
+            <form
+                method="get"
+                action="webwn"
+                enctype="multipart/form-data"
+                name="f"
+            >
+                Word to search for:
+                <input
+                    type="text"
+                    name="s"
+                    value="test"
+                    maxlength="500"
+                /><input
+                    type="submit"
+                    name="sub"
+                    value="Search WordNet"
+                /><input type="hidden" name="o2" value="" /><input
+                    type="hidden"
+                    name="o0"
+                    value="1"
+                /><input type="hidden" name="o8" value="1" /><input
+                    type="hidden"
+                    name="o1"
+                    value="1"
+                /><input type="hidden" name="o7" value="" /><input
+                    type="hidden"
+                    name="o5"
+                    value=""
+                /><input type="hidden" name="o9" value="" /><input
+                    type="hidden"
+                    name="o6"
+                    value=""
+                /><input type="hidden" name="o3" value="" /><input
+                    type="hidden"
+                    name="o4"
+                    value=""
+                /><input type="hidden" name="h" value="0000000000000" />
+            </form>
+            <form
+                method="get"
+                action="webwn"
+                enctype="multipart/form-data"
+                name="change"
+            >
+                <br />Display Options:
+                <select name="c">
+                    <option selected="selected" value="-1">
+                        (Select option to change)
+                    </option>
+                    <option value="0">Hide Example Sentences</option>
+                    <option value="1">Hide Glosses</option>
+                    <option value="2">Show Frequency Counts</option>
+                    <option value="3">Show Database Locations</option>
+                    <option value="4">Show Lexical File Info</option>
+                    <option value="5">Show Lexical File Numbers</option>
+                    <option value="6">Show Sense Keys</option>
+                    <option value="7">Show Sense Numbers</option>
+                    <option value="8">Show all</option>
+                    <option value="9">Hide all</option>
+                </select>
+                <input type="submit" name="sub" value="Change" /><input
+                    type="hidden"
+                    name="o2"
+                    value=""
+                /><input type="hidden" name="o0" value="1" /><input
+                    type="hidden"
+                    name="o8"
+                    value="1"
+                /><input type="hidden" name="o1" value="1" /><input
+                    type="hidden"
+                    name="o7"
+                    value=""
+                /><input type="hidden" name="o5" value="" /><input
+                    type="hidden"
+                    name="o9"
+                    value=""
+                /><input type="hidden" name="o6" value="" /><input
+                    type="hidden"
+                    name="o3"
+                    value=""
+                /><input type="hidden" name="o4" value="" /><input
+                    type="hidden"
+                    name="i"
+                    value="-1"
+                /><input type="hidden" name="h" value="0000000000000" /><input
+                    type="hidden"
+                    name="s"
+                    value="test"
+                />
+            </form>
+            <div class="key">
+                Key: "S:" = Show Synset (semantic) relations, "W:" = Show Word
+                (lexical) relations
+            </div>
+            <div class="key">
+                Display options for sense: (gloss) "an example sentence"
+            </div>
+            <h3>Noun</h3>
+            <ul>
+                <a name="c"></a>
+                <li>
+                    <a
+                        href="webwn?o2=&amp;o0=1&amp;o8=1&amp;o1=1&amp;o7=&amp;o5=&amp;o9=&amp;o6=&amp;o3=&amp;o4=&amp;s=test&amp;i=0&amp;h=0000000000000#c"
+                        >S:</a
+                    ><a class="pos"> (n) </a
+                    ><a
+                        href="webwn?o2=&amp;o0=1&amp;o8=1&amp;o1=1&amp;o7=&amp;o5=&amp;o9=&amp;o6=&amp;o3=&amp;o4=&amp;s=trial"
+                        >trial</a
+                    >,
+                    <a
+                        href="webwn?o2=&amp;o0=1&amp;o8=1&amp;o1=1&amp;o7=&amp;o5=&amp;o9=&amp;o6=&amp;o3=&amp;o4=&amp;s=trial+run"
+                        >trial run</a
+                    >, <b>test</b>,
+                    <a
+                        href="webwn?o2=&amp;o0=1&amp;o8=1&amp;o1=1&amp;o7=&amp;o5=&amp;o9=&amp;o6=&amp;o3=&amp;o4=&amp;s=tryout"
+                        >tryout</a
+                    >
+                    (trying something to find out about it)
+                    <i
+                        >"a sample for ten days free trial"; "a trial of
+                        progesterone failed to relieve the pain"</i
+                    >
+                </li>
+                <li>
+                    <a
+                        href="webwn?o2=&amp;o0=1&amp;o8=1&amp;o1=1&amp;o7=&amp;o5=&amp;o9=&amp;o6=&amp;o3=&amp;o4=&amp;s=test&amp;i=1&amp;h=0000000000000#c"
+                        >S:</a
+                    ><a class="pos"> (n) </a><b>test</b>,
+                    <a
+                        href="webwn?o2=&amp;o0=1&amp;o8=1&amp;o1=1&amp;o7=&amp;o5=&amp;o9=&amp;o6=&amp;o3=&amp;o4=&amp;s=mental+test"
+                        >mental test</a
+                    >,
+                    <a
+                        href="webwn?o2=&amp;o0=1&amp;o8=1&amp;o1=1&amp;o7=&amp;o5=&amp;o9=&amp;o6=&amp;o3=&amp;o4=&amp;s=mental+testing"
+                        >mental testing</a
+                    >,
+                    <a
+                        href="webwn?o2=&amp;o0=1&amp;o8=1&amp;o1=1&amp;o7=&amp;o5=&amp;o9=&amp;o6=&amp;o3=&amp;o4=&amp;s=psychometric+test"
+                        >psychometric test</a
+                    >
+                    (any standardized procedure for measuring sensitivity or
+                    memory or intelligence or aptitude or personality etc)
+                    <i
+                        >"the test was standardized on a large sample of
+                        students"</i
+                    >
+                </li>
+                <li>
+                    <a
+                        href="webwn?o2=&amp;o0=1&amp;o8=1&amp;o1=1&amp;o7=&amp;o5=&amp;o9=&amp;o6=&amp;o3=&amp;o4=&amp;s=test&amp;i=2&amp;h=0000000000000#c"
+                        >S:</a
+                    ><a class="pos"> (n) </a
+                    ><a
+                        href="webwn?o2=&amp;o0=1&amp;o8=1&amp;o1=1&amp;o7=&amp;o5=&amp;o9=&amp;o6=&amp;o3=&amp;o4=&amp;s=examination"
+                        >examination</a
+                    >,
+                    <a
+                        href="webwn?o2=&amp;o0=1&amp;o8=1&amp;o1=1&amp;o7=&amp;o5=&amp;o9=&amp;o6=&amp;o3=&amp;o4=&amp;s=exam"
+                        >exam</a
+                    >, <b>test</b> (a set of questions or exercises evaluating
+                    skill or knowledge)
+                    <i
+                        >"when the test was stolen the professor had to make a
+                        new set of questions"</i
+                    >
+                </li>
+                <li>
+                    <a
+                        href="webwn?o2=&amp;o0=1&amp;o8=1&amp;o1=1&amp;o7=&amp;o5=&amp;o9=&amp;o6=&amp;o3=&amp;o4=&amp;s=test&amp;i=3&amp;h=0000000000000#c"
+                        >S:</a
+                    ><a class="pos"> (n) </a><b>test</b>,
+                    <a
+                        href="webwn?o2=&amp;o0=1&amp;o8=1&amp;o1=1&amp;o7=&amp;o5=&amp;o9=&amp;o6=&amp;o3=&amp;o4=&amp;s=trial"
+                        >trial</a
+                    >
+                    (the act of undergoing testing)
+                    <i
+                        >"he survived the great test of battle"; "candidates
+                        must compete in a trial of skill"</i
+                    >
+                </li>
+                <li>
+                    <a
+                        href="webwn?o2=&amp;o0=1&amp;o8=1&amp;o1=1&amp;o7=&amp;o5=&amp;o9=&amp;o6=&amp;o3=&amp;o4=&amp;s=test&amp;i=4&amp;h=0000000000000#c"
+                        >S:</a
+                    ><a class="pos"> (n) </a><b>test</b>,
+                    <a
+                        href="webwn?o2=&amp;o0=1&amp;o8=1&amp;o1=1&amp;o7=&amp;o5=&amp;o9=&amp;o6=&amp;o3=&amp;o4=&amp;s=trial"
+                        >trial</a
+                    >,
+                    <a
+                        href="webwn?o2=&amp;o0=1&amp;o8=1&amp;o1=1&amp;o7=&amp;o5=&amp;o9=&amp;o6=&amp;o3=&amp;o4=&amp;s=run"
+                        >run</a
+                    >
+                    (the act of testing something)
+                    <i
+                        >"in the experimental trials the amount of carbon was
+                        measured separately"; "he called each flip of the coin a
+                        new trial"</i
+                    >
+                </li>
+                <li>
+                    <a
+                        href="webwn?o2=&amp;o0=1&amp;o8=1&amp;o1=1&amp;o7=&amp;o5=&amp;o9=&amp;o6=&amp;o3=&amp;o4=&amp;s=test&amp;i=5&amp;h=0000000000000#c"
+                        >S:</a
+                    ><a class="pos"> (n) </a><b>test</b> (a hard outer covering
+                    as of some amoebas and sea urchins) <i></i>
+                </li>
+            </ul>
+            <h3>Verb</h3>
+            <ul>
+                <li>
+                    <a
+                        href="webwn?o2=&amp;o0=1&amp;o8=1&amp;o1=1&amp;o7=&amp;o5=&amp;o9=&amp;o6=&amp;o3=&amp;o4=&amp;s=test&amp;i=6&amp;h=0000000000000#c"
+                        >S:</a
+                    ><a class="pos"> (v) </a><b>test</b>,
+                    <a
+                        href="webwn?o2=&amp;o0=1&amp;o8=1&amp;o1=1&amp;o7=&amp;o5=&amp;o9=&amp;o6=&amp;o3=&amp;o4=&amp;s=prove"
+                        >prove</a
+                    >,
+                    <a
+                        href="webwn?o2=&amp;o0=1&amp;o8=1&amp;o1=1&amp;o7=&amp;o5=&amp;o9=&amp;o6=&amp;o3=&amp;o4=&amp;s=try"
+                        >try</a
+                    >,
+                    <a
+                        href="webwn?o2=&amp;o0=1&amp;o8=1&amp;o1=1&amp;o7=&amp;o5=&amp;o9=&amp;o6=&amp;o3=&amp;o4=&amp;s=try+out"
+                        >try out</a
+                    >,
+                    <a
+                        href="webwn?o2=&amp;o0=1&amp;o8=1&amp;o1=1&amp;o7=&amp;o5=&amp;o9=&amp;o6=&amp;o3=&amp;o4=&amp;s=examine"
+                        >examine</a
+                    >,
+                    <a
+                        href="webwn?o2=&amp;o0=1&amp;o8=1&amp;o1=1&amp;o7=&amp;o5=&amp;o9=&amp;o6=&amp;o3=&amp;o4=&amp;s=essay"
+                        >essay</a
+                    >
+                    (put to the test, as for its quality, or give experimental
+                    use to)
+                    <i
+                        >"This approach has been tried with good results"; "Test
+                        this recipe"</i
+                    >
+                </li>
+                <li>
+                    <a
+                        href="webwn?o2=&amp;o0=1&amp;o8=1&amp;o1=1&amp;o7=&amp;o5=&amp;o9=&amp;o6=&amp;o3=&amp;o4=&amp;s=test&amp;i=7&amp;h=0000000000000#c"
+                        >S:</a
+                    ><a class="pos"> (v) </a
+                    ><a
+                        href="webwn?o2=&amp;o0=1&amp;o8=1&amp;o1=1&amp;o7=&amp;o5=&amp;o9=&amp;o6=&amp;o3=&amp;o4=&amp;s=screen"
+                        >screen</a
+                    >, <b>test</b> (test or examine for the presence of disease
+                    or infection) <i>"screen the blood for the HIV virus"</i>
+                </li>
+                <li>
+                    <a
+                        href="webwn?o2=&amp;o0=1&amp;o8=1&amp;o1=1&amp;o7=&amp;o5=&amp;o9=&amp;o6=&amp;o3=&amp;o4=&amp;s=test&amp;i=8&amp;h=0000000000000#c"
+                        >S:</a
+                    ><a class="pos"> (v) </a
+                    ><a
+                        href="webwn?o2=&amp;o0=1&amp;o8=1&amp;o1=1&amp;o7=&amp;o5=&amp;o9=&amp;o6=&amp;o3=&amp;o4=&amp;s=quiz"
+                        >quiz</a
+                    >, <b>test</b> (examine someone's knowledge of something)
+                    <i
+                        >"The teacher tests us every week"; "We got quizzed on
+                        French irregular verbs"</i
+                    >
+                </li>
+                <li>
+                    <a
+                        href="webwn?o2=&amp;o0=1&amp;o8=1&amp;o1=1&amp;o7=&amp;o5=&amp;o9=&amp;o6=&amp;o3=&amp;o4=&amp;s=test&amp;i=9&amp;h=0000000000000#c"
+                        >S:</a
+                    ><a class="pos"> (v) </a><b>test</b> (show a certain
+                    characteristic when tested)
+                    <i>"He tested positive for HIV"</i>
+                </li>
+                <li>
+                    <a
+                        href="webwn?o2=&amp;o0=1&amp;o8=1&amp;o1=1&amp;o7=&amp;o5=&amp;o9=&amp;o6=&amp;o3=&amp;o4=&amp;s=test&amp;i=10&amp;h=0000000000000#c"
+                        >S:</a
+                    ><a class="pos"> (v) </a><b>test</b> (achieve a certain
+                    score or rating on a test)
+                    <i
+                        >"She tested high on the LSAT and was admitted to all
+                        the good law schools"</i
+                    >
+                </li>
+                <li>
+                    <a
+                        href="webwn?o2=&amp;o0=1&amp;o8=1&amp;o1=1&amp;o7=&amp;o5=&amp;o9=&amp;o6=&amp;o3=&amp;o4=&amp;s=test&amp;i=11&amp;h=0000000000000#c"
+                        >S:</a
+                    ><a class="pos"> (v) </a><b>test</b> (determine the presence
+                    or properties of (a substance)) <i></i>
+                </li>
+                <li>
+                    <a
+                        href="webwn?o2=&amp;o0=1&amp;o8=1&amp;o1=1&amp;o7=&amp;o5=&amp;o9=&amp;o6=&amp;o3=&amp;o4=&amp;s=test&amp;i=12&amp;h=0000000000000#c"
+                        >S:</a
+                    ><a class="pos"> (v) </a><b>test</b> (undergo a test)
+                    <i>"She doesn't test well"</i>
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>
