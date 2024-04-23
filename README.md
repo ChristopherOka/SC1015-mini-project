@@ -1,4 +1,4 @@
-# SC1015-mini-project
+# SC1015-Mini-Project
 
 ## Practical Motivation
 Movies are quite popular in our society's culture, and being able to predict the success of a movie is imperative to movie studios, directors, and all other cast and crew.
@@ -52,6 +52,6 @@ Overall, the decision tree was the most accurate model, which helped us infer th
 
 We found that whether a movie has a made-up word or not can predict with high-accuracy whether the movie will be popular or not and whether it will have a high vote average or not.
 
-
+### By Chris Oka, Kevin Wang, Muhammadh Faheem Faizal
 
 
