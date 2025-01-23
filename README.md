@@ -6,7 +6,7 @@ We decided to analyse whether the title of movies has an impact on a movie's suc
 
 The variables we decided to analyse within the title are as follows:
 - Title sentiment (how positive or negative the words in the title are)
-- Title Length (word cound)
+- Title Length (word count)
 - Average Title Word Length
 - Has Made-Up Word (whether a word in the title isn't in the English dictionary)
 - Made-Up Word Count
